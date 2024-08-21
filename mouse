@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ты - мышь!</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            font-size: 3em;
+            margin-top: 50px;
+        }
+        p {
+            font-size: 1.5em;
+            color: #555;
+        }
+        .mouse {
+            width: 150px;
+            margin: 10px;
+            display: inline-block;
+            animation: spin 5s infinite linear;
+        }
+        @keyframes spin {
+            from {transform: rotate(0deg);}
+            to {transform: rotate(360deg);}
+        }
+    </style>
+</head>
+<body>
+    <h1>Привет, ты - мышь!</h1>
+    <p>Посмотри на всех этих мышей вокруг, ты среди своих!</p>
+    
+    <!-- Множество картинок с мышами -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Mouse.jpg" alt="Mouse" class="mouse">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Mouse.jpg" alt="Mouse" class="mouse">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Mouse.jpg" alt="Mouse" class="mouse">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Mouse.jpg" alt="Mouse" class="mouse">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Mouse.jpg" alt="Mouse" class="mouse">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Mouse.jpg" alt="Mouse" class="mouse">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Mouse.jpg" alt="Mouse" class="mouse">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Mouse.jpg" alt="Mouse" class="mouse">
+
+    <p>Наслаждайся своим временем здесь, мышь!</p>
+</body>
+</html>
